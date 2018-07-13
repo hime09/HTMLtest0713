@@ -1,0 +1,147 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+/* reset css*/
+ol,ul{ list-style: none; }
+a{ outline: 0; text-decoration: none; }
+img{ border: 0; }
+* { margin: 0; padding: 0; font-family: 'Nanum Gothic', sans-serif; }
+
+/* 1번 문제 */
+#bg{
+	width: 1200px;
+	height: 1000px;
+	margin: 10px auto;
+	border: 2px solid black;
+	padding-left: 50px;
+	padding-top: 50px;
+}
+
+fieldset{
+	width: 1100px;
+	height: 900px;
+}
+
+#head01{
+	width: 1100px;
+	height: 120px;
+	border-bottom: 1px solid gray;
+	margin-bottom: 10px;
+}
+
+.b_out{
+	width: 1100px;
+	height: 180px;
+	margin-bottom: 50px;
+}
+
+.b_out>h3{
+	line-height: 50px;
+}
+
+.b_out>li{
+	font-size: 18px;
+	padding-bottom: 10px;
+	margin-left: 30px;
+}
+
+#ph{
+	font-size: 20px;
+}
+
+.button{
+	display: inline-block;
+	width: 80px;
+	height: 25px;
+}
+
+
+/* 2번 문제 */
+#head02{
+	width: 1200px;
+	height: 300 px;
+	margin: 10px auto;
+}
+
+#head02>ul>li{
+	width: 90px;
+	height: 40px;
+	border: 1px solid black;
+	text-align: center;
+	padding: 10px 20px;
+	margin: 10px;
+	display: inline-block;
+}
+
+
+/* 3번 문제 */
+#head03{
+	width: 355px;
+	height: 300px;
+	margin: 50px auto;
+	text-align: center;
+}
+
+#head03>ul{
+	text-align: center;
+	display: inline-block;
+	margin-right: -5px;
+	
+}
+
+#head03>ul>li{
+	border: 1px solid black;
+}
+
+#line01>li{
+	width: 150px;
+	height: 50px;
+	font-weight: bold;
+	background: #EEE;
+	padding: 10px;
+}
+
+.line02>li{
+	width: 100px;
+	height: 50px;
+	padding: 10px;
+}
+
+.line02_1{
+	font-weight: bold;
+	background: #EEE;
+}
+
+
+/* 4번 문제 */
+#head04{
+	width: 500px;
+	height: 700px;
+	margin: 50px auto;
+}
+
+#head04>p{
+	text-align: center;
+	font-size: 50px;
+}
+
+#head04>ul{
+	width: 400px;
+	height: 600px;
+	margin: 0 auto;
+	font-size: 20px;
+	border: 2px solid black;
+}
+
+#head04>ul>li{
+	width: 396px;
+	height: 59px;
+	border-top: 1px solid gray;
+	line-height: 55px;
+	padding-left: 20px;	
+}
+
+#head04>ul>li:nth-child(2n-1){
+		background: #eee;
+}
+	
